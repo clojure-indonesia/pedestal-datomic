@@ -1,0 +1,5 @@
+{:server-type :peer-server
+ :endpoint "localhost:8998"
+ :access-key "datomic"
+ :secret "d4t0m1c"
+ :validate-hostnames false}

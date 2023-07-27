@@ -1,0 +1,12 @@
+[{:movie/id 1
+  :movie/title "The Goonies"
+  :movie/genre "action/adventure"
+  :movie/release-year 1985}
+ {:movie/id 2
+  :movie/title "Commando"
+  :movie/genre "action/adventure"
+  :movie/release-year 1985}
+ {:movie/id 3
+  :movie/title "Repo Man"
+  :movie/genre "punk dystopia"
+  :movie/release-year 1984}]
