@@ -1,3 +1,10 @@
+### DATOMIC PRO
+```bash
+curl -O https://datomic-pro-downloads.s3.amazonaws.com/1.0.6735/datomic-pro-1.0.6735.zip
+unzip datomic-pro-1.0.6735.zip
+cd datomic-pro-1.0.6735
+```
+
 ### STORAGE
 ```bash
 psql -f bin/sql/postgres-db.sql -U postgres
