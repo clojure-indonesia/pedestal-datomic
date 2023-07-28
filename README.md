@@ -31,9 +31,9 @@ bin/run -m datomic.peer-server \
         -a datomic,d4t0m1c \
         -d pedestal-datomic,"datomic:sql://pedestal-datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"
 ```
-### CONSOLE
+### CONSOLE (http://localhost:8081/browse) 
 ```bash
-bin/console -p 8080 sql "datomic:sql://?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"
+bin/console -p 8081 sql "datomic:sql://?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic"
 ```
 
 ---
