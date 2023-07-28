@@ -76,7 +76,7 @@
   [request]
   (let [conn (::conn request)
         movie (::movie request)
-        id                 (Long/valueOf (get-in request [:path-params :id]))
+        id (Long/valueOf (get-in request [:path-params :id]))
         {:keys [title genre release-year]} (:json-params request)]
     (when (seq movie)
       (let [{:keys [db-after]} (d/transact conn {:tx-data [{:db/id [:movie/id id]
