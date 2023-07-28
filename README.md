@@ -58,5 +58,6 @@ http://localhost:8080
 | DELETE | /movie/:id |
 
 ### REFERENCES
+- [https://clojure.org/](https://clojure.org/)
 - [http://pedestal.io/](http://pedestal.io/)
 - [https://docs.datomic.com/pro/](https://docs.datomic.com/pro/)
