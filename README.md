@@ -10,7 +10,7 @@ bin/transactor -Ddatomic.printConnectionInfo=true config/samples/sql-transactor-
 ```
 ### CREATE DATABASE
 ```bash
-bin/sheel
+bin/shell
 ```
 ```
 uri = "datomic:sql://pedestal-datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic";
