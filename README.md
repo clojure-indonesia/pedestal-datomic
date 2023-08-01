@@ -44,18 +44,16 @@ bin/console -p 8081 sql "datomic:sql://?jdbc:postgresql://localhost:5432/datomic
 clojure -Mrun
 ```
 ### ENDPOINT
-```
-http://localhost:8080
-```
-| METHOD | URL        |
-|--------|------------|
-| GET    | /          |
-| GET    | /about     |
-| POST   | /movies    |
-| GET    | /movies    |
-| GET    | /movie/:id |
-| UPDATE | /movie/:id |
-| DELETE | /movie/:id |
+| METHOD | URL                             |
+|--------|---------------------------------|
+| GET    | http://localhost:8080/          |
+| GET    | http://localhost:8080/about     |
+| POST   | http://localhost:8080/movies    |
+| GET    | http://localhost:8080/movies    |
+| GET    | http://localhost:8080/movie/:id |
+| UPDATE | http://localhost:8080/movie/:id |
+| DELETE | http://localhost:8080/movie/:id |
+### **NO UBER, NO DOCKER, USE ION**
 
 ### REFERENCES
 - [https://clojure.org/](https://clojure.org/)
