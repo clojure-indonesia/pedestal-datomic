@@ -15,11 +15,11 @@ psql -f bin/sql/postgres-user.sql -U postgres -d datomic
 ```bash
 bin/transactor -Ddatomic.printConnectionInfo=true config/samples/sql-transactor-template.properties
 ```
-### CREATE DATABASE
+### CREATE A DATABASE
 ```bash
 bin/shell
 ```
-```
+```bash
 uri = "datomic:sql://pedestal-datomic?jdbc:postgresql://localhost:5432/datomic?user=datomic&password=datomic";
 Peer.createDatabase(uri);
 ```
